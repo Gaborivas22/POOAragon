@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="495.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fes.aragon.controlador.JuegoArcadeController">
+   <top>
+      <Canvas fx:id="cvsLienzo" height="402.0" width="601.0" BorderPane.alignment="CENTER" />
+   </top>
+   <bottom>
+      <Button fx:id="btnRegresar" mnemonicParsing="false" onAction="#accionRegresar" text="REGRESAR" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

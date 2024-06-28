@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fes.aragon.controlador.InicioController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="606.0" layoutX="-1.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../../../../../../../../Pictures/ImagenIntroMesa.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnAccion" layoutX="108.0" layoutY="134.0" mnemonicParsing="false" onAction="#accionAccion" text="ACCION" />
+      <Button fx:id="btnAventura" layoutX="415.0" layoutY="134.0" mnemonicParsing="false" onAction="#accionAventura" text="AVENTURA" />
+      <Button fx:id="btnEstrategia" layoutX="97.0" layoutY="321.0" mnemonicParsing="false" onAction="#accionEstrategia" text="ESTRATEGIA" />
+      <Button fx:id="btnArcade" layoutX="423.0" layoutY="308.0" mnemonicParsing="false" onAction="#accionArcade" text="ARCADE" />
+   </children>
+</Pane>
